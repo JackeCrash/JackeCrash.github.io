@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #86A789;
+    color: #fffffff5;
+}
+
+.header{
+    background-color: #4F6F52;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.nav{
+    margin-bottom: 20px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    background-color: #739072;
+    text-align: center;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.links__item{
+    display: inline;
+}
+
+.item__anchor{
+    color: inherit;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+.main{
+    margin-left: 15px;
+    text-align: center;
+}
+
+.main__anchor-wsp{
+    color: inherit;
+}
+
+.main__wsp{
+    font-size: 50px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+}
+
+.t-shirts__h2, .football-cleats__title, .football-balls__title{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 15px; 
+    margin-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    background-color: #4F6F52;
+    color: #fff;
+}
+
+.card__img{
+    width: 100%;
+    height: 200px;
+}
+
+.card:hover{
+    outline: 1px solid #000;
+}
+
+.card__btn{
+    width: 65px;
+    color: #ffffffe1;
+    border: 0;
+    cursor: pointer;
+    background-color: #86A789;
+}
+
+.football-cleats__card{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+    background-color: #739072;
+}
